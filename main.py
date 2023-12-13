@@ -91,3 +91,5 @@ df = pd.DataFrame(df)
 print(df)
 cross = df[df["Rank"] == "Outstanding"]
 print(cross)
+x = lambda a, b: a + b
+print(x(2, 4))
